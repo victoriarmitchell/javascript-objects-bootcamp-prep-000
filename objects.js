@@ -1,5 +1,5 @@
 var playlist = {};
-playlist.Brockhampton = 'I, Tonya';
+playlist['Slowdive'] = 'Alison'
 
 function updatePlaylist(playlist,artistName,songTitle) {
   playlist.artistName = songTitle;
