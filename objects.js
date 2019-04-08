@@ -1,13 +1,14 @@
-var playlist = {};
-playlist['Slowdive'] = 'Alison';
-playlist['My Bloody Valentine'] = 'Sometimes';
-
-function updatePlaylist(playlist,artistName,songTitle) {
-  playlist['artistName'] = 'songTitle';
-  return playlist;
+var playlist = {
+  'Brockhampton': 'I, Tonya',
+  'Tommy Genesis': 'Rainbow'
 }
 
-function removeFromPlaylist(playlist,artistName) {
-  delete playlist['artistName'];
-  return playlist;
+function updatePlaylist(playlist, artistName, songTitle) {
+  playlist[artistName] = songTitle
+  return playlist
+}
+
+function removeFromPlaylist(playlist, artistName) {
+  delete playlist[artistName]
+  return playlist
 }
