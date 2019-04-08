@@ -1,5 +1,5 @@
 var playlist = {};
-playlist['Tommy Genesis'] = 'Raibow';
+playlist['Tommy Genesis'] = 'Rainbow';
 
 function updatePlaylist(playlist,artistName,songTitle) {
   playlist[artistName] = songTitle;
